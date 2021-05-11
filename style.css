@@ -8,29 +8,15 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  color: #444;
 }
 
 h2 {
   font-size: 4rem;
   font-weight: bold;
-  /* position: relative;
-  color: #252839;
-  -webkit-text-stroke: 0.3vw #383d52; */
+  position: relative;
+  color: #dfc7e3;
 }
-/* 
-h2::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  color: #ba68c8;
-  -webkit-text-stroke: 0vw #383d52;
-  border-right: 2px solid #01fe87;
-  overflow: hidden;
-  animation: animate 6s linear infinite;
-} */
 
 .coming-soon {
   min-height: 100vh;
@@ -57,4 +43,17 @@ h2::before {
 .construction-image {
   max-height: 65vh;
   padding-top: 3em;
+}
+
+span {
+  /* opacity: 0; */
+  transition: all 0.5s ease;
+  /* transform: translateY(50px);
+  display: inline-block; */
+}
+
+span.fade {
+  /* opacity: 1;
+  transform: translateY(0px); */
+  color: #ba68c8;
 }
